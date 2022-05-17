@@ -1,27 +1,26 @@
 {
-  "name": "benefits-of-saving.netlify.app",
+  "name": "benefits-of-saving.herokuapp.com",
   "version": "1.0.0",
   "description": "Hello this is just a single web page application for a performance task\r in my school. Specifically in my Media Information and Literacy class.",
-  "main": "functions/api.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": ""
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DragunWF/benefits-of-saving.netlify.app.git"
+    "url": "git+https://github.com/DragunWF/benefits-of-saving.herokuapp.com.git"
   },
   "keywords": [],
   "author": "DragunWF",
   "license": "All Rights Reserved",
   "bugs": {
-    "url": "https://github.com/DragunWF/benefits-of-saving.netlify.app/issues"
+    "url": "https://github.com/DragunWF/benefits-of-saving.herokuapp.com/issues"
   },
-  "homepage": "https://github.com/DragunWF/benefits-of-saving.netlify.app#readme",
+  "homepage": "https://github.com/DragunWF/benefits-of-saving.herokuapp.com#readme",
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "netlify-lambda": "^2.0.15",
     "serverless-http": "^3.0.1"
   }
 }
