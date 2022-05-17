@@ -38,6 +38,18 @@ body {
   text-align: center;
 }
 
+.content footer {
+  background: #425478;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.content footer h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .container {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
@@ -59,7 +71,7 @@ body {
   line-height: 1.5;
   text-align: center;
   margin-top: 1rem;
-  /* text-shadow: 2px 2px var(--color-text-shadow); */
+  text-shadow: 2px 2px var(--color-text-shadow);
 }
 
 /* Boxes */
