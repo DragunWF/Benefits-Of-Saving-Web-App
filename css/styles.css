@@ -8,6 +8,11 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
 /* Objects */
 .flex-object {
   display: flex;
@@ -17,3 +22,26 @@ html {
 }
 
 /* Main */
+.content header {
+  background: tomato;
+  font-size: 2.5rem;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.container-box {
+  background: gold;
+  width: 100%;
+}
+
+.container-box p {
+  width: 95%;
+  line-height: 1.5;
+  text-align: center;
+}
