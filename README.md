@@ -7,7 +7,7 @@ in my school. Specifically in my Media Information and Literacy class.
 
 ## Link
 
-- [Link to the website](https://benefits-of-saving.netlify.app)
+- [Link to the website](https://benefits-of-saving.herokuapp.com)
 
 ## Attributions
 
