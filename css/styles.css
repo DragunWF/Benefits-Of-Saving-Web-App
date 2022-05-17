@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
+  --color-primary-box: #1e3c7a;
+  --color-secondary-box: #3162c4;
   --color-text: #fff;
   --color-text-shadow: #1d1c1a;
 }
@@ -34,6 +36,11 @@ body {
   font-size: 13.5rem;
   padding-top: 2.2rem;
   padding-bottom: 1.5rem;
+  transition: all 0.25s ease-out;
+}
+
+.icons:hover {
+  transform: scale(1.05);
 }
 
 /* Header */
@@ -81,13 +88,11 @@ body {
 
 /* Box colors */
 .primary-color-box {
-  /* background: #5178c9; */
-  background: #1e3c7a;
+  background: var(--color-primary-box);
 }
 
 .secondary-color-box {
-  /* background: #0f3b96; */
-  background: #3162c4;
+  background: var(--color-secondary-box);
 }
 
 /* Footer */
@@ -99,6 +104,7 @@ body {
 }
 
 .content footer h3 {
+  text-shadow: 2px 2px var(--color-text-shadow);
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
