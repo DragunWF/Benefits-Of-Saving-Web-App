@@ -25,6 +25,19 @@ body {
   text-shadow: 3px 3px var(--color-text-shadow);
 }
 
+a {
+  border-bottom: 0.2em solid var(--color-text);
+  color: var(--color-text);
+  font-weight: 800;
+  text-decoration: none;
+  transition: all 0.1s ease-in;
+}
+
+a:hover {
+  border-bottom: 0.2em solid #3e7cf7;
+  color: #3e7cf7;
+}
+
 /* Objects */
 .flex-object {
   display: flex;
