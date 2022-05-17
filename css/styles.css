@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
   --color-text: #fff;
@@ -15,7 +16,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Inter", "Poppins", Arial, sans-serif;
   font-size: 1.8rem;
   color: var(--color-text);
   text-shadow: 3px 3px var(--color-text-shadow);
@@ -48,7 +49,7 @@ body {
 }
 
 .content header h2 {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   margin-top: 0;
   padding-bottom: 1rem;
 }
