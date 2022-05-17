@@ -110,6 +110,14 @@ a:hover {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
   }
+
+  #third-box {
+    background: var(--color-primary-box);
+  }
+
+  #fourth-box {
+    background: var(--color-secondary-box);
+  }
 }
 
 /* Box colors */
