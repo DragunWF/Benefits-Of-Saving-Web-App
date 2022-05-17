@@ -2,10 +2,10 @@
   "name": "benefits-of-saving.herokuapp.com",
   "version": "1.0.0",
   "description": "Hello this is just a single web page application for a performance task\r in my school. Specifically in my Media Information and Literacy class.",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/DragunWF/benefits-of-saving.herokuapp.com#readme",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
-    "express": "^4.18.1",
-    "serverless-http": "^3.0.1"
+    "express": "^4.18.1"
   }
 }
