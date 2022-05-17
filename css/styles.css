@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
   --color-text: #fff;
+  --color-text-shadow: #1d1c1a;
 }
 
 html {
@@ -12,7 +13,7 @@ body {
   font-family: "Poppins", Arial, sans-serif;
   font-size: 1.8rem;
   color: var(--color-text);
-  text-shadow: 3px 3px #1d1c1a;
+  text-shadow: 3px 3px var(--color-text-shadow);
 }
 
 /* Objects */
@@ -24,11 +25,14 @@ body {
 }
 
 .icons {
+  font-size: 13.5rem;
+  padding-top: 2.2rem;
+  padding-bottom: 1.5rem;
 }
 
 /* Main */
 .content header {
-  background: tomato;
+  background: #425478;
   font-size: 2.3rem;
   width: 100%;
   text-align: center;
@@ -42,7 +46,6 @@ body {
 }
 
 .container-box {
-  background: gold;
   width: 100%;
 }
 
@@ -56,29 +59,16 @@ body {
   line-height: 1.5;
   text-align: center;
   margin-top: 1rem;
+  /* text-shadow: 2px 2px var(--color-text-shadow); */
 }
 
 /* Boxes */
-#box-one {
-  background: #5178c9;
+.primary-color-box {
+  /* background: #5178c9; */
+  background: #1e3c7a;
 }
 
-#box-two {
-  background: #0f3b96;
-}
-
-#box-three {
-  background: #0f3b96;
-}
-
-#box-four {
-  background: #5178c9;
-}
-
-#box-five {
-  background: #5178c9;
-}
-
-#box-six {
-  background: #0f3b96;
+.secondary-color-box {
+  /* background: #0f3b96; */
+  background: #3162c4;
 }
