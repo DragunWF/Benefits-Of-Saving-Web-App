@@ -2,7 +2,8 @@
   "name": "benefits-of-saving.netlify.app",
   "version": "1.0.0",
   "description": "Hello this is just a single web page application for a performance task\r in my school. Specifically in my Media Information and Literacy class.",
-  "main": "index.js",
+  "main": "functions/api.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/DragunWF/benefits-of-saving.netlify.app#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "serverless-http": "^3.0.1"
   }
 }
