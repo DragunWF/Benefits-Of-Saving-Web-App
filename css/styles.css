@@ -87,6 +87,13 @@ body {
   text-shadow: 2px 2px var(--color-text-shadow);
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 /* Box colors */
 .primary-color-box {
   background: var(--color-primary-box);
