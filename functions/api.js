@@ -9,10 +9,10 @@ app.set("view engine", "ejs");
 app.use("/public", express.static("public"));
 
 router.get("/", (req, res) => {
-//   VisitTracker.incrementVisits();
+  VisitTracker.incrementVisits();
   res.render("index", {
     data: {
-      visits: 1,
+      visits: VisitTracker.getVisits(),
     },
   });
 });
