@@ -1,0 +1,23 @@
+{
+  "name": "benefits-of-saving.netlify.app",
+  "version": "1.0.0",
+  "description": "Hello this is just a single web page application for a performance task\r in my school. Specifically in my Media Information and Literacy class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DragunWF/benefits-of-saving.netlify.app.git"
+  },
+  "keywords": [],
+  "author": "DragunWF",
+  "license": "All Rights Reserved",
+  "bugs": {
+    "url": "https://github.com/DragunWF/benefits-of-saving.netlify.app/issues"
+  },
+  "homepage": "https://github.com/DragunWF/benefits-of-saving.netlify.app#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
