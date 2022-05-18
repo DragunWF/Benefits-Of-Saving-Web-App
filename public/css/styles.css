@@ -105,6 +105,14 @@ a:hover {
   width: 95%;
 }
 
+.primary-color-box {
+  background: var(--color-primary-box);
+}
+
+.secondary-color-box {
+  background: var(--color-secondary-box);
+}
+
 @media screen and (max-width: 768px) {
   .container {
     grid-template-columns: repeat(1, 1fr);
@@ -118,15 +126,6 @@ a:hover {
   #fourth-box {
     background: var(--color-secondary-box);
   }
-}
-
-/* Box colors */
-.primary-color-box {
-  background: var(--color-primary-box);
-}
-
-.secondary-color-box {
-  background: var(--color-secondary-box);
 }
 
 /* Footer */

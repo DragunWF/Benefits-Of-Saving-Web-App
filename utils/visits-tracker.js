@@ -1,4 +1,4 @@
-class VisitTracker {
+class VisitsTracker {
   static #visits = 0;
 
   static getVisits() {
@@ -14,4 +14,4 @@ class VisitTracker {
   }
 }
 
-export default VisitTracker;
+export default VisitsTracker;
